@@ -1,0 +1,90 @@
+
+/* Configurações gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5faf7;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #47b881;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Menu */
+nav {
+    background-color: #277b59;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe082;
+}
+
+/* Seções */
+section {
+    padding: 35px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #277b59;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Imagem */
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* Cards dos serviços */
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #cccccc;
+}
+
+.card:hover {
+    background-color: #e1f5e9;
+}
+
+/* Rodapé */
+footer {
+    background-color: #277b59;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.banner {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
