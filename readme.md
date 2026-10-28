@@ -38,7 +38,7 @@ petshop/
 **1.** Faça o download do projeto ou clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git https://github.com/fernandamelreis/petshop.git
 ```
 
 **2.** Abra a pasta do projeto no Visual Studio Code.
